@@ -7,7 +7,8 @@
       <router-link to="/g6editor">G6-Editor</router-link> |
       <router-link to="/x6editor">X6-Editor</router-link> |
       <router-link to="/codehljs">hljs</router-link> |
-      <router-link to="/menutest">menu</router-link>
+      <router-link to="/menutest">menu</router-link> |
+      <router-link to="/background">background</router-link>
     </div>
     <router-view />
   </div>

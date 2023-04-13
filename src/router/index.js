@@ -88,7 +88,13 @@ const routes = [{
         component: () => import("../views/menuPages/menu3.vue"),
       }
     ]
-  }
+  },
+  
+  {
+    path: "/background",
+    name: "Background",
+    component: () => import("../views/Background.vue")
+  },
 ];
 
 const router = new VueRouter({
