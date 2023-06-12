@@ -95,6 +95,12 @@ const routes = [{
     name: "Background",
     component: () => import("../views/Background.vue")
   },
+  
+  {
+    path: "/audio",
+    name: "Audio",
+    component: () => import("../views/Audio.vue")
+  },
 ];
 
 const router = new VueRouter({
